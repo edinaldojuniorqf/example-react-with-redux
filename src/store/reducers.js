@@ -19,7 +19,7 @@ const filterText = (state = '', action) => {
     }
 }
 
-const inStock = (state = false, action) => {
+const inStockOnly = (state = false, action) => {
     switch (action.type) {
         case SET_IN_STOCK:
             return action.inStock
@@ -31,5 +31,5 @@ const inStock = (state = false, action) => {
 export default combineReducers({
     products,
     filterText,
-    inStock
+    inStockOnly
 })

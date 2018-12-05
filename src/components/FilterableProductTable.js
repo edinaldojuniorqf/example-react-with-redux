@@ -2,11 +2,7 @@ import React from 'react'
 import SearchBar from '../containers/SearchBar'
 import ProductTable from '../containers/ProductTable'
 
-class FilterableProductTable extends React.Component {
-    constructor(props) {
-      super(props)
-    }
-  
+class FilterableProductTable extends React.Component {  
     render() {
       return (
         <div>
